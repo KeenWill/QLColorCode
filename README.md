@@ -22,34 +22,34 @@ If you want to configure `QLColorCode`, there are several `defaults` commands th
 Setting the text encoding (default is `UTF-8`). Two settings are required. The first sets Highlight's encoding, the
 second sets Webkit's:
 
-    defaults write org.n8gray.QLColorCode textEncoding UTF-16
-    defaults write org.n8gray.QLColorCode webkitTextEncoding UTF-16
+    defaults write com.williamgoeller.QLColorCode textEncoding UTF-16
+    defaults write com.williamgoeller.QLColorCode webkitTextEncoding UTF-16
 
 Setting the font (default is `Menlo`):
 
-    defaults write org.n8gray.QLColorCode font Monaco
+    defaults write com.williamgoeller.QLColorCode font Monaco
 
 Setting the font size (default is `10`):
 
-    defaults write org.n8gray.QLColorCode fontSizePoints 9
+    defaults write com.williamgoeller.QLColorCode fontSizePoints 9
 
 Setting the color style for `light` and `dark` mode (see
 [all available themes](http://www.andre-simon.de/doku/highlight/theme-samples.php)):
 
-    defaults write org.n8gray.QLColorCode lightTheme solarized-light
-    defaults write org.n8gray.QLColorCode darkTheme solarized-dark
+    defaults write com.williamgoeller.QLColorCode lightTheme solarized-light
+    defaults write com.williamgoeller.QLColorCode darkTheme solarized-dark
 
 Setting the thumbnail color style (deactivated by default):
 
-    defaults write org.n8gray.QLColorCode hlThumbTheme ide-xcode
+    defaults write com.williamgoeller.QLColorCode hlThumbTheme ide-xcode
 
 Setting the maximum size (in bytes, deactivated by default) for previewed files:
 
-    defaults write org.n8gray.QLColorCode maxFileSize 1000000
+    defaults write com.williamgoeller.QLColorCode maxFileSize 1000000
 
 zSetting any extra command-line flags for Highlight (see below):
 
-    defaults write org.n8gray.QLColorCode extraHLFlags '-l -W'
+    defaults write com.williamgoeller.QLColorCode extraHLFlags '-l -W'
 
 Here are some useful 'highlight' command-line flags (from the man page):
 
@@ -85,7 +85,7 @@ Here are some useful 'highlight' command-line flags (from the man page):
 It is also possible to have the HTML preview converted to RTF. Using RTF allows the contents of the file to be displayed
 instead of an icon -- similar to QLStephen.
 
-    defaults write org.n8gray.QLColorCode rtfRender true
+    defaults write com.williamgoeller.QLColorCode rtfRender true
 
 ## Additional information
 

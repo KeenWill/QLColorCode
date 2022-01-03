@@ -6,9 +6,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/fr/1.0.0/) a
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
-## [Unreleased]
+## [5.0.0]
 
-- NOTHING
+### Changed
+
+- Signed the `qlgenerator` using Apple signing so you don't need to disable
+  checking of valid signatures on installed programs on Mac.
+- Changed the identifier to `com.williamgoeller.qlcolorcode` to align with the
+  identifier of my Apple Developer Account team. This also breaks the defaults
+  so they will need to be re-written.
 
 ## [4.1.0] — 2020-12-17
 

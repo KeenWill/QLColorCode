@@ -26,7 +26,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>org.n8gray.qlcolorcode</string>
+	<string>com.williamgoeller.qlcolorcode</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleVersion</key>
@@ -143,7 +143,7 @@
 		</dict>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.scheme-source</string>
+			<string>com.williamgoeller.scheme-source</string>
 			<key>UTTypeDescription</key>
 			<string>scheme Source File</string>
 			<key>UTTypeConformsTo</key>
@@ -160,7 +160,7 @@
 		</dict>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.ini-source</string>
+			<string>com.williamgoeller.ini-source</string>
 			<key>UTTypeDescription</key>
 			<string>.ini Source File</string>
 			<key>UTTypeConformsTo</key>
@@ -222,7 +222,7 @@
 		</dict>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.standard-ml-source</string>
+			<string>com.williamgoeller.standard-ml-source</string>
 			<key>UTTypeDescription</key>
 			<string>Standard ML Source File</string>
 			<key>UTTypeConformsTo</key>
@@ -239,7 +239,7 @@
 		</dict>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.structured-query-language-source</string>
+			<string>com.williamgoeller.structured-query-language-source</string>
 			<key>UTTypeDescription</key>
 			<string>SQL Source File</string>
 			<key>UTTypeConformsTo</key>
@@ -256,7 +256,7 @@
 		</dict>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.diff-script</string>
+			<string>com.williamgoeller.diff-script</string>
 			<key>UTTypeDescription</key>
 			<string>Diff File</string>
 			<key>UTTypeConformsTo</key>
@@ -325,7 +325,7 @@
 		</dict>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.jsp-source</string>
+			<string>com.williamgoeller.jsp-source</string>
 			<key>UTTypeDescription</key>
 			<string>JSP Source File</string>
 			<key>UTTypeConformsTo</key>
@@ -359,7 +359,7 @@
 		</dict>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.lisp</string>
+			<string>com.williamgoeller.lisp</string>
 			<key>UTTypeDescription</key>
 			<string>Lisp Source File</string>
 			<key>UTTypeConformsTo</key>
@@ -379,7 +379,7 @@
 		</dict>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.idl</string>
+			<string>com.williamgoeller.idl</string>
 			<key>UTTypeDescription</key>
 			<string>IDL Source File</string>
 			<key>UTTypeConformsTo</key>
@@ -396,7 +396,7 @@
 		</dict>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.verilog</string>
+			<string>com.williamgoeller.verilog</string>
 			<key>UTTypeDescription</key>
 			<string>Verilog Source File</string>
 			<key>UTTypeConformsTo</key>
@@ -413,7 +413,7 @@
 		</dict>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.vhdl</string>
+			<string>com.williamgoeller.vhdl</string>
 			<key>UTTypeDescription</key>
 			<string>VHDL Source File</string>
 			<key>UTTypeConformsTo</key>
@@ -430,7 +430,7 @@
 		</dict>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.xhtml</string>
+			<string>com.williamgoeller.xhtml</string>
 			<key>UTTypeDescription</key>
 			<string>XHTML Source File</string>
 			<key>UTTypeConformsTo</key>
@@ -447,7 +447,7 @@
 		</dict>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.javaInstaller</string>
+			<string>com.williamgoeller.javaInstaller</string>
 			<key>UTTypeDescription</key>
 			<string>Java Web Installer (XML)</string>
 			<key>UTTypeConformsTo</key>
@@ -542,7 +542,7 @@
 			<key>UTTypeDescription</key>
 			<string>Ruby on Rails File</string>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.railstemplate</string>
+			<string>com.williamgoeller.railstemplate</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
@@ -555,7 +555,7 @@
 		</dict>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>org.n8gray.bogusextension</string>
+			<string>com.williamgoeller.bogusextension</string>
 			<key>UTTypeDescription</key>
 			<string>QLColorCode Test File</string>
 			<key>UTTypeConformsTo</key>
